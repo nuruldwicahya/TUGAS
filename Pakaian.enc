@@ -1,0 +1,118 @@
+public class Pakaian
+{
+	private String kode;
+	private String merek;
+	private String bahan;
+	private String warna;
+	private String harga;
+	private String jenis;
+	private String tgl_produksi;
+	private String id_produksi;
+	private String perusahaan;
+	
+	
+	
+	public Pakaian (String kode,
+String merek,
+String bahan,
+String warna,
+String harga,
+String jenis,
+String tgl_produksi,
+String id_produksi,
+String perusahaan)
+	{
+		this.kode = kode;
+		this.merek = merek;
+		this.bahan= bahan;
+		this.warna = warna;
+		this.harga = harga;
+		this.jenis = jenis;
+		this.tgl_produksi = tgl_produksi;
+		this.id_produksi= id_produksi;
+		this.perusahaan = perusahaan;
+		
+	}
+	
+	public void setKode(String kode)
+	{
+		kode = kode;
+	}
+	
+	public void setMerek(String merek)
+	{
+		merek = merek;
+	}
+	
+	public void setBahan(String bahan)
+	{
+		bahan= bahan;
+	}
+	
+	public void setWarna(String warna)
+	{
+		warna = warna;
+	}
+
+	public void setHarga(String harga)
+	{
+		harga = harga;
+	}
+	
+	public void setJenis(String jenis)
+	{
+		jenis = jenis;
+	}
+	
+	public void setTgl_Produksi(String tgl_produksi)
+	{
+		id_produksi= id_produksi;
+	}
+	
+	public void setPerusahaan(String perusahaan)
+	{
+		perusahaan= perusahaan;
+	}
+	
+	 
+		public void getKode(String kode)
+	{
+		return kode;
+	}
+	
+	public void getMerek(String merek)
+	{
+		return merek;
+	}
+	
+	public void getBahan(String bahan)
+	{
+		return bahan;
+	}
+	
+	public void getWarna(String warna)
+	{
+		return warna;
+	}
+
+	public void getHarga(String harga)
+	{
+		return harga;
+	}
+	
+	public void getJenis(String jenis)
+	{
+		return jenis;
+	}
+	
+	public void getTgl_Produksi(String tgl_produksi)
+	{
+		return id_produksi;
+	}
+	
+	public void getPerusahaan(String perusahaan)
+	{
+		return perusahaan;
+	}
+		
+}

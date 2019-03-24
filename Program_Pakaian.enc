@@ -1,0 +1,30 @@
+public class Program_Pakaian
+{
+	public static void main(String [] args)
+	{
+		Pakaian pakaian = new Pakaian (args [0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10]);
+		
+		
+		String kode = kode.getKode();
+		String merek = merek.getMerek();
+		String bahan = bahan.getBahan();
+		String warna = warna.getWarna();
+		String harga = harga.getHarga();
+		String jenis = jenis.getJenis();
+		String id_produksi = id_produksi.getId_Produksi();
+		String tgl_produksi = tgl_produksi.getTgl_Produksi();
+		String perusahaan = perusahaan.getPerusahaan();
+
+		
+		System.out.println("Kode = "+kode);
+		System.out.println("Merek = "+merek);
+		System.out.println("Bahan = "+bahan);
+		System.out.println("Warna = "+warna);
+		System.out.println("Harga = "+harga);
+		System.out.println("Jenis = "+jenis);
+		System.out.println("Tgl_Produksi = "+tgl_produksi);
+		System.out.println("Id_produksi = "+tgl_produksi);
+		System.out.println("Perusahaan = "+perusahaan);
+
+	}
+}
